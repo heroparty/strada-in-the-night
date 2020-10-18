@@ -7,9 +7,6 @@ func _ready():
  spawn()
  pass
 
-func get_count():
-	return 'FODA-SE'
-
 func spawn():
  while true:
   randomize()
