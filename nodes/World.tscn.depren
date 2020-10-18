@@ -5,6 +5,7 @@
 [ext_resource path="res://src/Spawn.gd" type="Script" id=3]
 [ext_resource path="res://src/background.gd" type="Script" id=4]
 
+
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
 uniform float scroll_speed;
@@ -41,5 +42,3 @@ __meta__ = {
 
 [node name="Car" parent="." instance=ExtResource( 2 )]
 position = Vector2( 313.662, 561.608 )
-
-[node name="container" type="Node" parent="."]
