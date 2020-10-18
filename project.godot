@@ -19,6 +19,10 @@ config/name="Strada In The Night"
 run/main_scene="res://nodes/World.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Variables="*res://src/variables.gd"
+
 [display]
 
 window/size/width=458

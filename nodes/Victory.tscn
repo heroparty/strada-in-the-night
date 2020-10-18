@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Button.gd" type="Script" id=1]
+[ext_resource path="res://assets/images/victory.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 229.255, 336.57 )
+scale = Vector2( 0.612391, 0.473926 )
+texture = ExtResource( 2 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 196.064
+margin_top = 367.189
+margin_right = 208.064
+margin_bottom = 387.189
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
