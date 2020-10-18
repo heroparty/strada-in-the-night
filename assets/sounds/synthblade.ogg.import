@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/synthblade.ogg-7e23b0f4b7918356ba0b12a8671f1fe8.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/synthblade.ogg"
+dest_files=[ "res://.import/synthblade.ogg-7e23b0f4b7918356ba0b12a8671f1fe8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
